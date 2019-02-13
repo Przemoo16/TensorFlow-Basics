@@ -6,10 +6,12 @@ Solutions are based on the course [Complete Guide to TensorFlow for Deep Learnin
 
 ### List of examples
 
-- TensorFlow Basics
+- Regression task
+- Classification task
 - Convolutional Neural Networks
 - Recurrent Neural Networks
 - TensorFlow APIs
+- Reinforcement Learning with OpenAI
 
 ## Requirements
 
@@ -18,6 +20,7 @@ Solutions are based on the course [Complete Guide to TensorFlow for Deep Learnin
 * [Pandas](https://pandas.pydata.org) - Data analysis library
 * [Matplotlib](https://matplotlib.org) - Plotting library
 * [Scikit-Learn](https://scikit-learn.org/stable/) - Data mining and data analysis library
+* [Gym](https://gym.openai.com/docs/) - Toolkit for developing and comparing reinforcement learning algorithms
 
 ## Author
 
