@@ -7,11 +7,11 @@ observation = env.reset()
 print(observation)
 
 for i in range(2):
-    
-    #env.render()
+
+    # env.render()
 
     action = env.action_space.sample()
-    
+
     observation, reward, done, info = env.step(action)
 
     print("Performed One Random Action")
