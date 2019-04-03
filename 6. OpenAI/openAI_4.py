@@ -72,9 +72,7 @@ saver = tf.train.Saver()
 
 
 def helper_discount_rewards(rewards, discount_rate):
-    """
-    Take in rewards and applies discount rate.
-    """
+    """Take in rewards and applies discount rate."""
     discounted_rewards = np.zeros(len(rewards))
     cumulative_rewards = 0
     for step in reversed(range(len(rewards))):
@@ -84,10 +82,7 @@ def helper_discount_rewards(rewards, discount_rate):
 
 
 def discount_and_normalize_rewards(all_rewards, discount_rate):
-    """
-    Take in all rewards, applies helper_discount function and then normalizes
-    using mean and std.
-    """
+    """Take in all rewards, applies helper_discount function and then normalizes using mean and std."""
     all_discounted_rewards = []
     for rewards in all_rewards:
         all_discounted_rewards.append(helper_discount_rewards(rewards, discount_rate))
