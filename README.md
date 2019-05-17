@@ -15,7 +15,7 @@ Solutions are based on the course [Complete Guide to TensorFlow for Deep Learnin
 
 ## Requirements
 
-* [TensorFlow](https://www.tensorflow.org) - Deep learning framework
+* [TensorFlow](https://www.tensorflow.org) - Deep learning framework (Version 1.12)
 * [Numpy](http://www.numpy.org) - Package for scientific computing
 * [Pandas](https://pandas.pydata.org) - Data analysis library
 * [Matplotlib](https://matplotlib.org) - Plotting library
